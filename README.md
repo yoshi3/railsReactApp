@@ -1,24 +1,32 @@
-# README
+## Build image
+cd an image derectory top level
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It needs `ruby2.7.3` and `mysql8`
 
-Things you may want to cover:
+```sh
+docker-compose up -d --build
+```
 
-* Ruby version
+## Start iamge
+cd an image derectory top level
 
-* System dependencies
+```sh
+docker-compose up
+```
 
-* Configuration
+or
 
-* Database creation
+```sh
+docker-compose up -d
+```
 
-* Database initialization
+## Stop image
+cd an image derectory top level
 
-* How to run the test suite
+ctrl + c
 
-* Services (job queues, cache servers, search engines, etc.)
+or
 
-* Deployment instructions
-
-* ...
+```sh
+docker-compose stop
+```
